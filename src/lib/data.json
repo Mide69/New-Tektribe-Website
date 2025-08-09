@@ -1,0 +1,826 @@
+{
+  "site": {
+      "siteMetadata": {
+          "socials": [
+              {
+                  "id": "1",
+                  "title": "instagram",
+                  "path": "https://www.instagram.com/tek_tribe/",
+                  "icon": "Instagram"
+              },
+              {
+                  "id": "2",
+                  "title": "linkedin",
+                  "path": "https://www.linkedin.com/company/tektribe/",
+                  "icon": "Linkedin"
+              },
+              {
+                  "id": "3",
+                  "title": "Youtube",
+                  "path": "https://www.youtube.com/channel/UCrMUZ3CfyI1aupGB5-_gxtw",
+                  "icon": "Youtube"
+              },
+              {
+                  "id": "4",
+                  "title": "Facebook",
+                  "path": "https://www.facebook.com/profile.php?id=61577226638625",
+                  "icon": "Facebook"
+              }
+          ],
+          "contact": {
+              "phone": "+447918599099",
+              "email": "info@tektribe.org.uk",
+              "address": "4 Church Street, Ballieston, Glasgow, G69 7NU"
+          },
+          "getform_url": null
+      }
+  },
+  "header": {
+      "slogan": "Technology for Social Good",
+      "logo": [
+          {
+              "src": {
+                  "childImageSharp": {
+                      "gatsbyImageData": {
+                          "layout": "constrained",
+                          "backgroundColor": "#f8f8f8",
+                          "images": {
+                              "fallback": {
+                                  "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754137372/tektribe/TEK_TRIBE_LOGO_4_PNG_xxdtjz.png",
+                                  "srcSet": "https://res.cloudinary.com/faksam-soft/image/upload/v1754137372/tektribe/TEK_TRIBE_LOGO_4_PNG_xxdtjz.png",
+                                  "sizes": "(min-width: 139px) 139px, 100vw"
+                              },
+                              "sources": []
+                          },
+                          "width": 240,
+                          "height": 240
+                      }
+                  }
+              },
+              "alt": "logo",
+              "url": "https://res.cloudinary.com/faksam-soft/image/upload/v1754137372/tektribe/TEK_TRIBE_LOGO_4_PNG_xxdtjz.png"
+          },
+          {
+              "src": {
+                  "childImageSharp": {
+                      "gatsbyImageData": {
+                          "layout": "constrained",
+                          "backgroundColor": "#f8f8f8",
+                          "images": {
+                              "fallback": {
+                                  "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754137372/tektribe/TEK_TRIBE_LOGO_4_PNG_xxdtjz.png",
+                                  "srcSet": "https://res.cloudinary.com/faksam-soft/image/upload/v1754137372/tektribe/TEK_TRIBE_LOGO_4_PNG_xxdtjz.png 35w,\n/static/a84bfcbc31a94c9ab202f69706c339dc/325ee/logo-dark.webp 70w,\nhttps://res.cloudinary.com/faksam-soft/image/upload/v1754137372/tektribe/TEK_TRIBE_LOGO_4_PNG_xxdtjz.png 139w",
+                                  "sizes": "(min-width: 139px) 139px, 100vw"
+                              },
+                              "sources": []
+                          },
+                          "width": 139,
+                          "height": 70
+                      }
+                  }
+              },
+              "alt": null,
+              "url": "https://res.cloudinary.com/faksam-soft/image/upload/v1754137372/tektribe/TEK_TRIBE_LOGO_4_PNG_xxdtjz.png"
+          }
+      ],
+      "button": null
+  },
+  "navigation": {
+      "menu": [
+          {
+              "id": "1",
+              "text": "Home",
+              "path": "hero"
+          },
+          {
+              "id": "2",
+              "text": "About Us",
+              "path": "about"
+          },
+          {
+              "id": "3",
+              "text": "Services",
+              "path": "service"
+          },
+          {
+              "id": "4",
+              "text": "Our Works",
+              "path": "portfolio"
+          },
+          {
+              "id": "5",
+              "text": "Partners",
+              "path": "client"
+          },
+          {
+              "id": "6",
+              "text": "Testimonial",
+              "path": "testimonial"
+          },
+          {
+              "id": "7",
+              "text": "Donations",
+              "path": "pricing"
+          },
+          {
+              "id": "8",
+              "text": "Blog",
+              "path": "blog"
+          },
+          {
+              "id": "9",
+              "text": "Contact",
+              "path": "contacts"
+          }
+      ]
+  },
+  "footer": {
+      "logo": [
+          {
+              "src": {
+                  "childImageSharp": {
+                      "gatsbyImageData": {
+                          "layout": "constrained",
+                          "backgroundColor": "#f8f8f8",
+                          "images": {
+                              "fallback": {
+                                  "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754137372/tektribe/TEK_TRIBE_LOGO_4_PNG_xxdtjz.png",
+                                  "srcSet": "https://res.cloudinary.com/faksam-soft/image/upload/v1754137372/tektribe/TEK_TRIBE_LOGO_4_PNG_xxdtjz.png 35w,\n/static/83ed67f48c7872784b4f8a840d23be9d/325ee/logo.webp 70w,\n/static/83ed67f48c7872784b4f8a840d23be9d/b791a/logo.webp 139w",
+                                  "sizes": "(min-width: 139px) 139px, 100vw"
+                              },
+                              "sources": []
+                          },
+                          "width": 139,
+                          "height": 70
+                      }
+                  }
+              },
+              "alt": null
+          },
+          {
+              "src": {
+                  "childImageSharp": {
+                      "gatsbyImageData": {
+                          "layout": "constrained",
+                          "backgroundColor": "#f8f8f8",
+                          "images": {
+                              "fallback": {
+                                  "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754137372/tektribe/TEK_TRIBE_LOGO_4_PNG_xxdtjz.png",
+                                  "srcSet": "/static/a84bfcbc31a94c9ab202f69706c339dc/24c6f/logo-dark.webp 35w,\n/static/a84bfcbc31a94c9ab202f69706c339dc/325ee/logo-dark.webp 70w,\nhttps://res.cloudinary.com/faksam-soft/image/upload/v1754137372/tektribe/TEK_TRIBE_LOGO_4_PNG_xxdtjz.png 139w",
+                                  "sizes": "(min-width: 139px) 139px, 100vw"
+                              },
+                              "sources": []
+                          },
+                          "width": 139,
+                          "height": 70
+                      }
+                  }
+              },
+              "alt": null
+          }
+      ],
+      "copyright_text": " | Tek Tribe"
+  },
+  "homePage": {
+      "content": [
+        {
+            "id": "tek-tribe-home-hero",
+            "section": "hero-section",
+            "headings": [
+                {
+                    "content": "Digital Empowerment for Social Good"
+                }
+            ],
+            "texts": [
+                {
+                    "content": "Tek Tribe delivers IT solutions, IT support, and free digital training to underrepresented people and communities, powered by 100% carbon-neutral, sustainable technology."
+                }
+            ],
+            "images": [
+                {
+                    "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754139560/tektribe/tek-tribe-hero-background_qculgz.svg",
+                    "alt": "Personal Portfolio Images"
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "#contacts",
+                    "content": "CONTACT ME"
+                }
+            ]
+        },
+        {
+            "id": "tek-tribe-home-about",
+            "section": "about-section",
+            "section_title": {
+                "title": "Who we are",
+                "subtitle": "Learn about us"
+            },
+            "texts": [
+                {
+                    "content": "At TekTribe, we believe technology is more than just devices and code, it's a bridge to opportunity, creativity, and connection. We are a passionate community dedicated to helping individuals and businesses unlock the power of digital tools to solve problems, grow ideas, and thrive in the modern world."
+                },
+                {
+                    "content": "Founded with the vision of making tech knowledge accessible to everyone, TekTribe offers practical training, expert guidance, and inspiring conversations that demystify technology. Whether you're taking your first steps into the digital space or looking to refine advanced skills, we're here to equip you with the confidence and know-how to succeed."
+                },
+                {
+                    "content": "Our mission is to empower individuals and businesses by providing them with the tools they need to thrive in the digital age. We believe that technology has the power to transform lives, and we're committed to making that transformation accessible to all."
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "#contacts",
+                    "content": "Contact Us"
+                }
+            ],
+            "images": [
+                {
+                    "src": "https://www.tektribe.org.uk/tekabout.jpg"
+                }
+            ]
+        },
+        {
+            "id": "tek-tribe-home-services",
+            "section": "service-section",
+            "section_title": {
+                "title": "What we do",
+                "subtitle": "Our Services"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Cloud Solutions",
+                    "description": "We design, implement, and optimise secure, scalable cloud environments. From migration to ongoing management, we help you harness the power of cloud technology to improve efficiency, cut costs, and future-proof your operations.",
+                    "icon": "Cloud",
+                    "path": "#!"
+                },
+                {
+                    "id": 2,
+                    "title": "IT Audit and Cybersecurity",
+                    "description": "We provide expert advice and hands-on solutions to protect your data, systems, and networks. From security assessments to implementing best-in-class protections, we ensure your digital environment stays safe against evolving threats.",
+                    "icon": "Shield",
+                    "path": "#!"
+                },
+                {
+                    "id": 3,
+                    "title": "IT Support and Consultancy",
+                    "description": "Whether you need day-to-day troubleshooting, strategic IT planning, or infrastructure upgrades, our team delivers reliable support and tailored consultancy to keep your technology running smoothly.",
+                    "icon": "Tool",
+                    "path": "#!"
+                },
+                {
+                    "id": 4,
+                    "title": "Community Training and Workshops",
+                    "description": "We run accessible training programs and community-driven tech initiatives aimed at closing the digital skills gap. Our projects give people the tools they need to succeed in work, education, and everyday life.",
+                    "icon": "Users",
+                    "path": "#!"
+                },
+                {
+                    "id": 5,
+                    "title": "Mentoring and Support",
+                    "description": "We guide aspiring tech professionals and entrepreneurs through one-on-one and group mentoring, offering career insights, skills development, and real-world industry knowledge.",
+                    "icon": "Heart",
+                    "path": "#!"
+                },
+                {
+                    "id": 6,
+                    "title": "Digital Podcast",
+                    "description": "Through our Tek Talk podcast, we share conversations with industry experts, innovators, and everyday tech users, exploring trends, tools, and stories that inspire and inform.",
+                    "icon": "Mic",
+                    "path": "#!"
+                }
+
+                           ]
+        },
+        {
+            "id": "tek-tribe-home-parallax",
+            "section": "parallax-section",
+            "images": [
+                {
+                    "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754684506/tektribe/file_fnpfwa.svg"
+                }
+            ]
+        },
+        {
+            "id": "tek-tribe-home-portfolio",
+            "section": "portfolio-section",
+            "section_title": {
+                "title": "Our Projects",
+                "subtitle": "What We Have Done"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "AI Animation Training",
+                    "description": "We delivered comprehensive AI animation training to community members, teaching cutting-edge tools and techniques for creating digital content. Participants learned industry-standard software and developed practical skills for creative careers.",
+                    "stringList": [
+                        "AI-powered animation tools",
+                        "Creative storytelling",
+                        "Industry certification",
+                        "Portfolio development",
+                        "Career guidance"
+                    ],
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/w_600,h_400,c_fill,g_center/v1754681648/tektribe/AI_Revolutio_gfpqji.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Secondary School Digital Training",
+                    "description": "Our digital literacy program reached over 200 secondary school students, providing essential computer skills, coding basics, and digital citizenship training to prepare them for the modern workforce.",
+                    "items": [
+                        "Basic computer skills",
+                        "Introduction to coding",
+                        "Digital citizenship",
+                        "Online safety",
+                        "Career pathways"
+                    ],
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/w_600,h_400,c_fill,g_center/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Mentorship and Support",
+                    "description": "We provide ongoing mentorship to aspiring tech professionals, offering one-on-one guidance, career coaching, and industry connections to help individuals transition into technology careers.",
+                    "items": [
+                        "One-on-one mentoring",
+                        "Career development",
+                        "Industry networking",
+                        "Skills assessment",
+                        "Job placement support"
+                    ],
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/w_600,h_400,c_fill,g_center/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "IT Training for SMEs",
+                    "description": "We delivered targeted IT training to small and medium enterprises, helping business owners and employees leverage technology to improve operations, increase efficiency, and grow their businesses.",
+                    "items": [
+                        "Business technology solutions",
+                        "Digital marketing basics",
+                        "Cloud services training",
+                        "Cybersecurity awareness",
+                        "Productivity tools"
+                    ],
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/w_600,h_400,c_fill,g_center/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "Research for NGOs",
+                    "description": "We conducted comprehensive research projects for non-governmental organizations, providing data analysis, impact assessment, and technology recommendations to enhance their community outreach and effectiveness.",
+                    "items": [
+                        "Data collection and analysis",
+                        "Impact measurement",
+                        "Technology assessment",
+                        "Strategic recommendations",
+                        "Community engagement"
+                    ],
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_pad,ar_16:9/v1754140599/tektribe/ngo-research.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "tek-tribe-home-client",
+            "section": "client-section",
+            "section_title": {
+                "title": "Who we work with",
+                "subtitle": "Partners and Clients"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Marth Smiths",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Sumith Saha",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "John Due",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Janen Jara",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "Jara Sultana",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "title": "Sr Deirector",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "tek-tribe-home-testimonial",
+            "section": "testimonial-section",
+            "section_title": {
+                "title": "Testimonial",
+                "subtitle": "What Clients Say"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Winifred Ubong Ukpong",
+                    "designation": "Student",
+                    "description": "The training has been wonderful...it has impacted me with lots of ways to be creative, has made me appreciate the value of colours and has given me inspiration to design with clarity. Thank you so much Tek Tribe 💖.   ",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Attu Emmanuel Attu",
+                    "designation": "Medical Student",
+                    "description": "It's the best ever. I did something for the first time and it came out exactly as I had wanted. Thank you Tek tribe for this opportunity despite free, the training came out like it premium paid.",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Zamani Obadiah",
+                    "designation": "Student",
+                    "description": "This is one of the best online training I've attended, twas quick and straight to the point, no unnecessary wastage of time or beating about the bush, twas fun and very educative. Ready to try monetization 😁😁",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Ogbe Friday",
+                    "designation": "Class Teacher",
+                    "description": "Content and delivery explicit",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "Bashar",
+                    "designation": "Graphics Designer",
+                    "description": "The training was so interesting, and I achieved alot from it. Thanks to Tek Tribe",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "title": "Vivian",
+                    "designation": "UX Designer",
+                    "description": "Super amazing! Super creative! Mind boggling! And above all, value packed! Thank you, Tek Tribe. I can't say thank you enough.",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "title": "Miracle Chinaza",
+                    "designation": "Freelancer Technical Writer",
+                    "description": "It was a great session, I learned a lot especially on how to create video using AI animation. I am hoping that I'd use this knowledge to start a career in content creation. There was no flaw in the training, it was an interactive and very educative. I also learned video editing. I am grateful for this training. Thank you Tektribe.",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "title": "Okoli Mary-Peace",
+                    "designation": "Student",
+                    "description": "I learnt a lot, got to explore lots of app and created few videos. The tutors made the class so easy and understandable. AI Animation was made easy. Thank you Tek Tribe, they don't go back on their word, the 10k in my account is a proof. I won the competition that was held after the class and they paid as they said they would.",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "title": "Faith Beyaan Auta",
+                    "designation": "Fashion Designer",
+                    "description": "The AI animation training was very enlightening and the classes were engaging and the courses easy to understand. I loved the fact that I could easily replicate what we taught and even do more using my imagination. I already have exciting ideas to use my new found knowledge of AI Animation and I will definitely be tagging and appreciating Tek Tribe.",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "title": "Godsgift",
+                    "designation": "Laptop Technician",
+                    "description": "It is an amazing training program, well explain in details and super great for beginners or thanks to tektribe",
+                    "images": [
+                        {
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "tek-tribe-home-pricing",
+            "section": "pricing-section",
+            "section_title": {
+                "title": "Support Us",
+                "subtitle": "Donations & Sponsorship"
+            },
+            "texts": [
+                {
+                    "content": "At TekTribe, we believe technology can change lives, but access to skills, tools, and opportunities isn’t always equal. Your donations and sponsorships help us bridge the digital divide by funding free community training, delivering impactful tech projects, mentoring future tech talent, and producing resources like our Tek Talk podcast."
+                },
+                {
+                    "content": "Every contribution, whether financial support, equipment, software licences, or venue partnerships, directly fuels our mission to empower individuals and communities through technology."
+                }
+            ],
+            "inner": [
+                {
+                    "id": "donation-supporter",
+                    "title": "SUPPORTER",
+                    "subtitle": "Help Fund Community Training",
+                    "is_featured": false,
+                    "price": "£25",
+                    "items": [
+                        {
+                            "id": 1,
+                            "title": "Fund 1 training session",
+                            "available": true
+                        },
+                        {
+                            "id": 2,
+                            "title": "Support digital inclusion",
+                            "available": true
+                        },
+                        {
+                            "id": 3,
+                            "title": "Recognition on website",
+                            "available": true
+                        }
+                    ],
+                    "orderLink": "#!"
+                }
+            ]
+        },
+        {
+            "id": "tek-tribe-home-blog",
+            "section": "blog-section",
+            "section_title": {
+                "title": "Our Blog",
+                "subtitle": "Read about trending issues"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "The AI Revolution: How Artificial Intelligence is Transforming Digital Training in 2025",
+                    "category": "AI & Technology",
+                    "date": "January 15, 2025",
+                    "readingTime": "2 min read",
+                    "slug": "ai-revolution-digital-training-2025",
+                    "description": "Discover how AI is revolutionizing digital training and empowering communities with cutting-edge technology solutions.",
+                    "image": {
+                        "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754681648/tektribe/AI_Revolutio_gfpqji.png",
+                        "alt": "AI and digital training concept"
+                    }
+                },
+                {
+                    "id": 2,
+                    "title": "Cybersecurity for Small Businesses: Essential Strategies Every SME Should Implement",
+                    "category": "Cybersecurity",
+                    "date": "January 10, 2025",
+                    "readingTime": "2 min read",
+                    "slug": "cybersecurity-small-business-guide",
+                    "description": "Learn essential cybersecurity strategies to protect your small business from digital threats and data breaches.",
+                    "image": {
+                        "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg",
+                        "alt": "Cybersecurity for small businesses"
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": "Cloud Migration Made Simple: A Step-by-Step Guide for Growing Businesses",
+                    "category": "Cloud Solutions",
+                    "date": "January 5, 2025",
+                    "readingTime": "6 min read",
+                    "slug": "cloud-migration-guide-businesses",
+                    "description": "A comprehensive guide to cloud migration strategies that minimize disruption while maximizing business benefits.",
+                    "image": {
+                        "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg",
+                        "alt": "Cloud migration strategy"
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Bridging the Digital Divide: How Community Training Programs Create Lasting Impact",
+                    "category": "Digital Inclusion",
+                    "date": "December 28, 2024",
+                    "readingTime": "4 min read",
+                    "slug": "digital-inclusion-community-training",
+                    "description": "Explore how community-based training programs are effectively addressing the digital divide and creating lasting change.",
+                    "image": {
+                        "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg",
+                        "alt": "Community digital training session"
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Green IT: Building Sustainable Technology Solutions for a Better Future",
+                    "category": "Sustainability",
+                    "date": "December 20, 2024",
+                    "readingTime": "5 min read",
+                    "slug": "green-it-sustainable-technology",
+                    "description": "Learn how Green IT practices can reduce environmental impact while improving business efficiency and sustainability.",
+                    "image": {
+                        "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg",
+                        "alt": "Green technology and sustainability"
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "From Zero to Creator: How AI Animation Training is Transforming Creative Careers",
+                    "category": "Training",
+                    "date": "December 15, 2024",
+                    "readingTime": "4 min read",
+                    "slug": "ai-animation-training-impact",
+                    "description": "Discover how AI animation training is breaking down creative barriers and transforming careers in the digital age.",
+                    "image": {
+                        "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg",
+                        "alt": "AI animation training session"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "tek-tribe-home-contact",
+            "section": "contact-section",
+            "section_title": {
+                "title": "Contact Us",
+                "subtitle": "To connect with us"
+            },
+            "images": [
+                {
+                    "src": "https://res.cloudinary.com/faksam-soft/image/upload/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                }
+            ],
+            "headings": [
+                {
+                    "content": "Lawrence Para Oni"
+                },
+                {
+                    "content": "Chief Operating Officer"
+                }
+            ],
+            "texts": [
+                {
+                    "content": "Connect with me via the contact form, email or call."
+                }
+            ]
+        }
+    ]
+  },
+  "allArticle": {
+      "nodes": [
+          {
+              "id": "dd36fb08-a302-5101-995e-97c8a3258e22",
+              "title": "The AI Revolution: How Artificial Intelligence is Transforming Digital Training in 2025",
+              "slug": "ai-revolution-digital-training-2025",
+              "category": "AI & Technology",
+              "date": "January 15, 2025",
+              "content": "<p>Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>\n<h4>Nobis eleifend option conguenes.</h4>\n<p>Mauris tempor, orci id pellentesque convallis, massa mi congue eros, sed posuere massa nunc quis dui. Integer ornare varius mi, in vehicula orci scelerisque sed. Fusce a massa nisi. Curabitur sit amet suscipit nisl. Sed eget nisl laoreet, suscipit enim nec, viverra eros. Nunc imperdiet risus leo, in rutrum erat dignissim id.</p>\n<p>Ut rhoncus vestibulum facilisis. Duis et lorem vitae ligula cursus venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vitae nisi tortor. Morbi leo nulla, posuere vel lectus a, egestas posuere lacus. Fusce eleifend hendrerit bibendum. Morbi nec efficitur ex.</p>\n<h4>Mauris tempor, orci id pellentesque.</h4>\n<p>Nulla non ligula vel nisi blandit egestas vel eget leo. Praesent fringilla dapibus dignissim. Pellentesque quis quam enim. Vestibulum ultrices, leo id suscipit efficitur, odio lorem rhoncus dolor, a facilisis neque mi ut ex. Quisque tempor urna a nisi pretium, a pretium massa tristique. Nullam in aliquam diam. Maecenas at nibh gravida, ornare eros non, commodo ligula. Sed efficitur sollicitudin auctor. Quisque nec imperdiet purus, in ornare odio. Quisque odio felis, vestibulum et.</p>",
+              "readingTime": "2 min read",
+              "image": {
+                  "alt": "AI and digital training concept",
+                  "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_pad,ar_16:9/v1754140599/tektribe/ai-training-blog.jpg"
+              }
+          },
+          {
+              "id": "13fddc12-d9cd-5423-8b5f-c55e08c95dce",
+              "title": "Cybersecurity for Small Businesses: Essential Strategies Every SME Should Implement",
+              "slug": "cybersecurity-small-business-guide",
+              "category": "Cybersecurity",
+              "date": "January 10, 2025",
+              "content": "<p>Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>\n<h4>Nobis eleifend option conguenes.</h4>\n<p>Mauris tempor, orci id pellentesque convallis, massa mi congue eros, sed posuere massa nunc quis dui. Integer ornare varius mi, in vehicula orci scelerisque sed. Fusce a massa nisi. Curabitur sit amet suscipit nisl. Sed eget nisl laoreet, suscipit enim nec, viverra eros. Nunc imperdiet risus leo, in rutrum erat dignissim id.</p>\n<p>Ut rhoncus vestibulum facilisis. Duis et lorem vitae ligula cursus venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vitae nisi tortor. Morbi leo nulla, posuere vel lectus a, egestas posuere lacus. Fusce eleifend hendrerit bibendum. Morbi nec efficitur ex.</p>\n<h4>Mauris tempor, orci id pellentesque.</h4>\n<p>Nulla non ligula vel nisi blandit egestas vel eget leo. Praesent fringilla dapibus dignissim. Pellentesque quis quam enim. Vestibulum ultrices, leo id suscipit efficitur, odio lorem rhoncus dolor, a facilisis neque mi ut ex. Quisque tempor urna a nisi pretium, a pretium massa tristique. Nullam in aliquam diam. Maecenas at nibh gravida, ornare eros non, commodo ligula. Sed efficitur sollicitudin auctor. Quisque nec imperdiet purus, in ornare odio. Quisque odio felis, vestibulum et.</p>",
+              "readingTime": "2 min read",
+              "image": {
+                  "alt": "Cybersecurity for small businesses",
+                  "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_pad,ar_16:9/v1754140599/tektribe/cybersecurity-blog.jpg"
+              }
+          },
+          {
+              "id": "cloud-migration-guide-2025",
+              "title": "Cloud Migration Made Simple: A Step-by-Step Guide for Growing Businesses",
+              "slug": "cloud-migration-guide-businesses",
+              "category": "Cloud Solutions",
+              "date": "January 5, 2025",
+              "content": "<p>Cloud migration is no longer a luxury for large corporations—it's become a necessity for businesses of all sizes looking to remain competitive, reduce costs, and improve scalability. However, the migration process can seem daunting without proper planning and expertise.</p>\n<h4>Why Cloud Migration Matters Now</h4>\n<p>The benefits of cloud computing extend far beyond cost savings. Cloud solutions offer improved collaboration, enhanced security, automatic updates, and the ability to scale resources up or down based on demand. For growing businesses, this flexibility is invaluable, allowing them to focus on core operations rather than IT infrastructure management.</p>\n<h4>Planning Your Migration Strategy</h4>\n<p>Successful cloud migration starts with a thorough assessment of your current infrastructure and business needs. Identify which applications and data should move first, considering factors like security requirements, compliance needs, and business criticality. A phased approach often works best, allowing you to learn and adjust as you progress.</p>\n<p>Our cloud migration services at TekTribe focus on minimizing disruption while maximizing the benefits of cloud technology. We work closely with businesses to ensure their migration strategy aligns with their long-term goals and operational requirements.</p>",
+              "readingTime": "6 min read",
+              "image": {
+                  "alt": "Cloud migration strategy",
+                  "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_pad,ar_16:9/v1754140599/tektribe/cloud-migration-blog.jpg"
+              }
+          },
+          {
+              "id": "digital-inclusion-2025",
+              "title": "Bridging the Digital Divide: How Community Training Programs Create Lasting Impact",
+              "slug": "digital-inclusion-community-training",
+              "category": "Digital Inclusion",
+              "date": "December 28, 2024",
+              "content": "<p>The digital divide remains one of the most pressing challenges of our time. While technology advances at breakneck speed, millions of people worldwide lack access to digital skills and resources. Community-based training programs are proving to be one of the most effective solutions to this complex problem.</p>\n<h4>Understanding the Digital Divide</h4>\n<p>The digital divide isn't just about access to technology—it's about digital literacy, relevant skills training, and ongoing support. Our experience at TekTribe has shown that providing equipment alone isn't enough; people need comprehensive training, mentorship, and pathways to apply their new skills meaningfully.</p>\n<h4>The Power of Community-Centered Approaches</h4>\n<p>Community training programs work because they're built on trust, cultural understanding, and local needs. When we design our programs, we start by listening to the community, understanding their challenges, and co-creating solutions that make sense in their context. This approach has led to higher engagement rates and better long-term outcomes.</p>\n<p>Success stories from our participants demonstrate the transformative power of accessible digital training. From students creating their first animations to small business owners launching online stores, these programs create ripple effects that benefit entire communities.</p>",
+              "readingTime": "4 min read",
+              "image": {
+                  "alt": "Community digital training session",
+                  "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_pad,ar_16:9/v1754140599/tektribe/community-training-blog.jpg"
+              }
+          },
+          {
+              "id": "green-it-sustainability-2025",
+              "title": "Green IT: Building Sustainable Technology Solutions for a Better Future",
+              "slug": "green-it-sustainable-technology",
+              "category": "Sustainability",
+              "date": "December 20, 2024",
+              "content": "<p>As climate change concerns intensify, the technology sector faces increasing pressure to reduce its environmental impact. Green IT practices are no longer optional—they're essential for responsible business operations and long-term sustainability.</p>\n<h4>The Environmental Cost of Technology</h4>\n<p>The ICT sector accounts for approximately 4% of global greenhouse gas emissions, a figure that's projected to double by 2025. From energy-hungry data centers to the lifecycle impact of electronic devices, technology's environmental footprint is substantial. However, technology also offers solutions to environmental challenges when implemented thoughtfully.</p>\n<h4>Practical Green IT Strategies</h4>\n<p>Organizations can significantly reduce their environmental impact through strategic technology choices. Cloud computing, when done right, can reduce energy consumption by up to 65% compared to traditional on-premises solutions. Implementing energy-efficient hardware, optimizing software performance, and adopting circular economy principles for device lifecycle management are all crucial steps.</p>\n<p>At TekTribe, we're committed to 100% carbon-neutral operations and help our clients implement sustainable technology solutions. Our approach combines environmental responsibility with business efficiency, proving that green practices can also be good for the bottom line.</p>",
+              "readingTime": "5 min read",
+              "image": {
+                  "alt": "Green technology and sustainability",
+                  "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_pad,ar_16:9/v1754140599/tektribe/green-it-blog.jpg"
+              }
+          },
+          {
+              "id": "ai-animation-training-impact",
+              "title": "From Zero to Creator: How AI Animation Training is Transforming Creative Careers",
+              "slug": "ai-animation-training-impact",
+              "category": "Training",
+              "date": "December 15, 2024",
+              "content": "<p>The creative industry has been revolutionized by AI-powered animation tools, and our training programs are at the forefront of this transformation. We've witnessed participants with no prior animation experience create professional-quality content within weeks of completing our courses.</p>\n<h4>Breaking Down Creative Barriers</h4>\n<p>Traditional animation required expensive software, powerful hardware, and years of training. AI animation tools have democratized this field, allowing anyone with creativity and basic computer skills to produce engaging visual content. Our participants have gone on to start freelance careers, enhance their marketing efforts, and even launch their own creative agencies.</p>\n<h4>Real Success Stories</h4>\n<p>Take Winifred, one of our recent graduates, who described the training as 'wonderful' and credited it with inspiring her to 'design with clarity.' Or Miracle, a technical writer who learned to create videos using AI animation and is now planning a career in content creation. These stories highlight the transformative power of accessible, high-quality training.</p>\n<p>The future belongs to those who can effectively collaborate with AI tools. Our training programs don't just teach software—they develop creative problem-solving skills and help participants understand how to leverage AI as a creative partner.</p>",
+              "readingTime": "4 min read",
+              "image": {
+                  "alt": "AI animation training session",
+                  "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_pad,ar_16:9/v1754140599/tektribe/ai-animation-blog.jpg"
+              }
+          }
+      ]
+  }
+}
