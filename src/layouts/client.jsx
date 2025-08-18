@@ -1,16 +1,12 @@
-import React from "react";
-const ClientSideOnlyLazy = React.lazy(() => import("./external"));
+"use client";
+import dynamic from "next/dynamic";
+
+const ClientSideOnlyLazy = dynamic(() => import("./external"), {
+    ssr: false,
+});
+
 const Client = () => {
-    const isSSR = typeof window === "undefined";
-    return (
-        <>
-            {!isSSR && (
-                <React.Suspense fallback={<div />}>
-                    <ClientSideOnlyLazy />
-                </React.Suspense>
-            )}
-        </>
-    );
+    return <ClientSideOnlyLazy />;
 };
 
 export default Client;
