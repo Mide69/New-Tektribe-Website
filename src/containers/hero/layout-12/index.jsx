@@ -32,7 +32,7 @@ const HeroArea = ({ data }) => {
                                     />
                                 )}
                                 {data?.texts?.[0] && (
-                                    <p className="discs color-body">
+                                    <p className="discs color-white">
                                         {data.texts[0]?.content}
                                     </p>
                                 )}

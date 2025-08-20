@@ -1,6 +1,4 @@
 "use client";
-import React from "react";
-import PropTypes from "prop-types";
 import { normalizedData } from "@/utils";
 import Layout from "@/layouts";
 import Header from "@/layouts/header/layout-01";
@@ -10,19 +8,13 @@ import AboutArea from "@/containers/about/layout-02";
 import ParallaxArea from "@/containers/parallax";
 import PortfolioArea from "@/containers/portfolio/layout-06";
 import ClientArea from "@/containers/client/layout-03";
-import ResumeArea from "@/containers/resume/layout-01";
 import BlogArea from "@/containers/blog/layout-01";
-import EducationArea from "@/containers/education/layout-01";
-import SkillArea from "@/containers/skill/layout-01";
-import ExperienceArea from "@/containers/experience/layout-01";
 import PricingArea from "@/containers/pricing/layout-02";
 import TestimonialArea from "@/containers/testimonial/layout-03";
+import TeamArea from "@/containers/team/layout-01";
 import ContactArea from "@/containers/contact/layout-01";
 import ServicesArea from "@/containers/service/layout-01";
-
-// import data from "@/lib/data.json";
 import data from "@/lib/data.json";
-// import "bootstrap/dist/css/bootstrap.min.css";
 import "@/assets/css/swiper.css";
 import "@/assets/scss/style.scss";
 import "aos/dist/aos.css";
@@ -31,7 +23,7 @@ import "@/app/custom-style.css";
 export default function IndexPage() {
     const content = normalizedData(data?.homePage?.content || []);
     return (
-        <Layout pageTitle="Tek Tribe">
+        <Layout>
             <Header
                 data={{
                     ...data.header,
@@ -47,6 +39,7 @@ export default function IndexPage() {
                 <PortfolioArea data={content["portfolio-section"]} />
                 <ClientArea data={content["client-section"]} />
                 <TestimonialArea data={content["testimonial-section"]} />
+                <TeamArea data={content["team-section"]} />
                 <PricingArea data={content["pricing-section"]} />
                 <BlogArea
                     data={{
@@ -73,31 +66,4 @@ export default function IndexPage() {
             />
         </Layout>
     );
-};
-
-// Define prop types
-IndexPage.propTypes = {
-    data: PropTypes.shape({
-        site: PropTypes.shape({
-            siteMetadata: PropTypes.shape({
-                socials: PropTypes.arrayOf(PropTypes.shape({})),
-                contact: PropTypes.shape({
-                    phone: PropTypes.string,
-                    email: PropTypes.string,
-                }),
-                getform_url: PropTypes.string,
-            }),
-        }),
-        homePage: PropTypes.shape({
-            content: PropTypes.arrayOf(PropTypes.shape({})),
-        }),
-        allArticle: PropTypes.shape({
-            nodes: PropTypes.arrayOf(PropTypes.shape({})),
-        }),
-        navigation: PropTypes.shape({
-            menu: PropTypes.arrayOf(PropTypes.shape({}))
-        }),
-        header: PropTypes.shape({}),
-        footer: PropTypes.shape({}),
-    }),
-};
+}

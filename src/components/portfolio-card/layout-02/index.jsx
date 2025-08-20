@@ -36,8 +36,9 @@ const PortfolioCard = ({ title, description, feature_list, image }) => {
                             <Image
                                 src={image.src}
                                 alt={image?.alt || "Personal Portfolio"}
-                                width={500}
-                                height={300}
+                                width={600}
+                                height={350}
+                                style={{ objectFit: 'cover' }}
                             />
                         </div>
                     )}

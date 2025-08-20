@@ -1,0 +1,12 @@
+.team-thumbnail {
+    text-align: center;
+    margin-top: 20px;
+    
+    img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border: 3px solid var(--color-primary);
+    }
+}
