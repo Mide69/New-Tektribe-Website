@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
-// import { Helmet } from "react-helmet";
 import { WOW } from "wowjs";
+import AOS from "aos";
 
 const External = () => {
-    let AOS;
     useEffect(() => {
         const wow = new WOW({
             offset: 100,
@@ -12,24 +11,16 @@ const External = () => {
         });
         wow.init();
 
-        const AOS = require("aos");
         AOS.init({
             once: true,
         });
     }, []);
 
     useEffect(() => {
-        if (AOS) {
-            AOS.refresh();
-        }
+        AOS.refresh();
     });
 
-    return (
-        <React.Fragment>
-            {/* <Helmet></Helmet> */}
-            <div></div>
-        </React.Fragment>
-    );
+    return <div></div>;
 };
 
 export default External;

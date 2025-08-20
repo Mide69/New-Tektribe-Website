@@ -467,25 +467,28 @@
             margin-bottom: 30px;
 
             h6 {
-                font-weight: 600;
-                font-size: 16px;
-                color: var(--color-white);
+                font-weight: var(--s-semi-bold);
+                font-size: var(--font-size-b3);
+                color: var(--color-heading);
                 margin-bottom: 10px;
                 letter-spacing: 2px;
                 text-transform: uppercase;
+                font-family: var(--font-secondary);
             }
 
             span {
                 color: var(--color-lightn);
-                font-size: 16px;
+                font-size: var(--font-size-b3);
+                font-family: var(--font-primary);
             }
         }
 
         .price {
-            font-size: 36px;
+            font-size: var(--h4);
             font-family: var(--font-primary);
-            color: var(--color-lightest);
+            color: var(--color-heading);
             margin-bottom: 23px;
+            font-weight: var(--p-bold);
         }
 
         .pricing-body {
@@ -517,11 +520,12 @@
 
                 .name {
                     color: var(--color-lightn);
-                    font-weight: 400;
-                    font-size: 16px;
+                    font-weight: var(--p-regular);
+                    font-size: var(--font-size-b3);
+                    font-family: var(--font-primary);
 
                     &.off {
-                        color: #646669;
+                        color: var(--color-midgray);
                     }
                 }
             }
@@ -536,6 +540,58 @@
 
                 &::before {
                     background: linear-gradient(to left top, #212428, #16181c);
+                }
+            }
+        }
+
+        .donation-form {
+            margin-top: 20px;
+            
+            .rnt-contact-form {
+                .form-group {
+                    margin-bottom: 20px;
+                    
+                    .form-control {
+                        font-size: var(--font-size-b3);
+                        font-family: var(--font-primary);
+                        color: var(--color-lightn);
+                        
+                        &::placeholder {
+                            color: var(--color-midgray);
+                            font-size: var(--font-size-b3);
+                        }
+                    }
+                }
+
+                .form-actions {
+                    display: flex;
+                    gap: 10px;
+                    margin-top: 25px;
+
+                    .rn-btn {
+                        flex: 1;
+                        text-align: center;
+                        font-size: var(--font-size-b3);
+                        font-family: var(--font-secondary);
+                        font-weight: var(--s-medium);
+                        padding: 12px 20px;
+                        letter-spacing: 1px;
+                        
+                        span {
+                            font-size: var(--font-size-b3);
+                        }
+                        
+                        &.btn-outline {
+                            background: transparent;
+                            border: 1px solid var(--color-lightn);
+                            color: var(--color-lightn);
+                            
+                            &:hover {
+                                background: var(--color-lightn);
+                                color: var(--color-dark);
+                            }
+                        }
+                    }
                 }
             }
         }

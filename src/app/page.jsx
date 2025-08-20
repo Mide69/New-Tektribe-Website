@@ -31,10 +31,16 @@ export default function IndexPage() {
                     socials: data.site.siteMetadata.socials,
                 }}
             />
-            <main className="main-page-wrapper">
-                <HeroArea data={content["hero-section"]} />
-                <AboutArea data={content["about-section"]} />
-                <ServicesArea id="service" data={content["service-section"]} />
+            <main className="main-page-wrapper" role="main">
+                <section aria-label="Hero Section">
+                    <HeroArea data={content["hero-section"]} />
+                </section>
+                <section aria-label="About Us">
+                    <AboutArea data={content["about-section"]} />
+                </section>
+                <section aria-label="Our Services">
+                    <ServicesArea id="service" data={content["service-section"]} />
+                </section>
                 <ParallaxArea data={content["parallax-section"]} />
                 <PortfolioArea data={content["portfolio-section"]} />
                 <ClientArea data={content["client-section"]} />

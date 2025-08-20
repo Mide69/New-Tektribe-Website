@@ -37,17 +37,21 @@ const ContactForm = ({ className, url }) => {
     const onSubmit = (data, e) => {
         const form = e.target;
         setServerState({ submitting: true });
-        axios({
-            method: "post",
-            url: url,
-            data,
-        })
-            .then((_res) => {
-                handleServerResponse(true, "Thanks! for being with us", form);
-            })
-            .catch((err) => {
-                handleServerResponse(false, err.response.data.error, form);
-            });
+        
+        // Create mailto link with form data
+        const subject = encodeURIComponent(`Contact Form: ${data.subject}`);
+        const body = encodeURIComponent(
+            `Name: ${data.name}\n` +
+            `Phone: ${data.phone}\n` +
+            `Email: ${data.email}\n` +
+            `Subject: ${data.subject}\n\n` +
+            `Message:\n${data.message}`
+        );
+        
+        const mailtoLink = `mailto:info@tektribe.org.uk?subject=${subject}&body=${body}`;
+        window.location.href = mailtoLink;
+        
+        handleServerResponse(true, "Email client opened. Thank you for contacting us!", form);
     };
 
     return (

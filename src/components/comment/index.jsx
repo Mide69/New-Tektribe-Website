@@ -1,16 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { DiscussionEmbed } from "disqus-react";
 
 const Comment = ({ slug, title }) => {
-    const disqusConfig = {
-        url: `http://localhost:8000/${slug}`,
-        identifier: slug,
-        title: title,
-    };
     return (
         <div className="pt--50">
-            <DiscussionEmbed shortname="inbio-1" config={disqusConfig} />
+            <p>Comments functionality will be implemented later.</p>
         </div>
     );
 };

@@ -8,6 +8,9 @@ const sliderOptions = {
     slidesToScroll: 1,
     dots: true,
     arrows: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
     responsive: [
         {
             breakpoint: 1124,
@@ -26,7 +29,7 @@ const sliderOptions = {
 
 const TeamArea = ({ data, id = "team" }) => {
     return (
-        <div className="rn-testimonial-area testimonial-style-2 testimonial-with-carousel rn-section-gapTop pb--80 pb_md--50 section-separator" id={id}>
+        <div className="rn-team-area team-style-2 team-with-carousel rn-section-gapTop pb--80 pb_md--50 section-separator" id={id}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
@@ -36,7 +39,7 @@ const TeamArea = ({ data, id = "team" }) => {
                     </div>
                 </div>
                 {data?.items && (
-                    <Slider className="testimonial-activation-item-3 slick-arrow-style-one mb--60" options={sliderOptions} nextIcon="ArrowRight" PrevIcon="ArrowLeft">
+                    <Slider className="team-activation-item-3 slick-arrow-style-one mb--60" options={sliderOptions} nextIcon="ArrowRight" PrevIcon="ArrowLeft">
                         {data.items.map((item) => (
                             <SliderItem key={item.id}>
                                 <TeamMember title={item.title} designation={item.designation} image={item.images?.[0]} />
