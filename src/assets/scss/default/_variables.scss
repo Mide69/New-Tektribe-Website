@@ -78,28 +78,28 @@
     --transition: 0.4s;
 
     // Font Family
-    --font-primary: "Poppins", sans-serif;
-    --font-secondary: "Montserrat", sans-serif;
+    --font-primary: "Inter", "Segoe UI", system-ui, sans-serif;
+    --font-secondary: "Inter", "Segoe UI", system-ui, sans-serif;
     --font-playfair: "Playfair Display", serif;
-    --font-archivo: "Archivo Black", sans-serif;
+    --font-archivo: "Inter", "Segoe UI", system-ui, sans-serif;
 
     //Fonts Size
-    --font-size-b1: 18px;
-    --font-size-b2: 22px;
+    --font-size-b1: 16px;
+    --font-size-b2: 18px;
     --font-size-b3: 14px;
 
     //Line Height
-    --line-height-b1: 1.5;
-    --line-height-b2: 1.6;
-    --line-height-b3: 1.7;
+    --line-height-b1: 1.6;
+    --line-height-b2: 1.7;
+    --line-height-b3: 1.5;
 
     // Heading Font
-    --h1: 70px;
-    --h2: 60px;
-    --h3: 50px;
-    --h4: 40px;
-    --h5: 30px;
-    --h6: 20px;
+    --h1: 48px;
+    --h2: 40px;
+    --h3: 32px;
+    --h4: 28px;
+    --h5: 24px;
+    --h6: 18px;
 }
 
 // Layouts Variation

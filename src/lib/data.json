@@ -581,13 +581,13 @@
             "section": "team-section",
             "section_title": {
                 "title": "Our Team",
-                "subtitle": "Meet the Experts"
+                "subtitle": "Meet the People Behind TekTribe"
             },
             "items": [
                 {
                     "id": 1,
-                    "title": "Sarah Johnson",
-                    "designation": "Chief Technology Officer",
+                    "title": "Olamide Kosile",
+                    "designation": "Chief Operating Manager/Co-Founder",
                     "images": [
                         {
                             "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_300,h_300,g_face/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
@@ -596,8 +596,8 @@
                 },
                 {
                     "id": 2,
-                    "title": "Marcus Chen",
-                    "designation": "Head of Cybersecurity",
+                    "title": "Stephanie Opara",
+                    "designation": "Human Rights Manager",
                     "images": [
                         {
                             "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_300,h_300,g_face/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
@@ -606,8 +606,8 @@
                 },
                 {
                     "id": 3,
-                    "title": "Amara Okafor",
-                    "designation": "Community Training Director",
+                    "title": "Lawrence Oni",
+                    "designation": "Operations & Programs Manager",
                     "images": [
                         {
                             "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_300,h_300,g_face/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
@@ -616,8 +616,8 @@
                 },
                 {
                     "id": 4,
-                    "title": "David Rodriguez",
-                    "designation": "Cloud Solutions Architect",
+                    "title": "Olubunmi Fatoba",
+                    "designation": "Media & Communications Manager",
                     "images": [
                         {
                             "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_300,h_300,g_face/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
@@ -626,8 +626,8 @@
                 },
                 {
                     "id": 5,
-                    "title": "Priya Sharma",
-                    "designation": "AI & Data Analytics Lead",
+                    "title": "Abraham Shobowale",
+                    "designation": "Partnership & Engagement Manager",
                     "images": [
                         {
                             "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_300,h_300,g_face/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
@@ -636,8 +636,8 @@
                 },
                 {
                     "id": 6,
-                    "title": "James Mitchell",
-                    "designation": "DevOps Engineering Manager",
+                    "title": "Olamide Joseph",
+                    "designation": "Talent & Human Resources Manager",
                     "images": [
                         {
                             "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_300,h_300,g_face/v1754138504/tektribe/sample_portfolio_s166uu.jpg"

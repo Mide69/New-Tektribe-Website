@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import cn from "clsx";
-import { Check, X, Heart, ArrowRight, CreditCard } from "react-feather";
+import { Check, X, Heart, ArrowRight } from "react-feather";
 import Button from "@/components/ui/button";
 import { FormGroup, Input } from "@/components/ui/form-elements";
 
@@ -190,7 +190,7 @@ const PricingCard = ({ title, subtitle, price, orderLink, features }) => {
                         <div className="form-actions">
                             <Button type="submit" className="btn-theme">
                                 <span>{isMaterialDonation ? 'SUBMIT' : 'DONATE NOW'}</span>
-                                {isMaterialDonation ? <ArrowRight size={16} /> : <CreditCard size={16} />}
+                                <ArrowRight size={16} />
                             </Button>
                             <Button type="button" onClick={() => setShowForm(false)} className="border-button">
                                 <span>CANCEL</span>
