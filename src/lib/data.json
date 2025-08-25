@@ -301,7 +301,7 @@
             "id": "tek-tribe-home-portfolio",
             "section": "portfolio-section",
             "section_title": {
-                "title": "Our Projects",
+                "title": "Our Recent Projects",
                 "subtitle": "What We Have Done"
             },
             "items": [
@@ -590,7 +590,7 @@
                     "designation": "Chief Operating Manager/Co-Founder",
                     "images": [
                         {
-                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_300,h_300,g_face/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_400,h_400,g_face,q_90,f_auto/v1755870537/tektribe/mide_dfgei8.jpg"
                         }
                     ]
                 },
@@ -600,7 +600,7 @@
                     "designation": "Human Rights Manager",
                     "images": [
                         {
-                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_300,h_300,g_face/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_400,h_400,g_face,q_90,f_auto/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
                         }
                     ]
                 },
@@ -610,7 +610,7 @@
                     "designation": "Operations & Programs Manager",
                     "images": [
                         {
-                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_300,h_300,g_face/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_400,h_400,g_face,q_90,f_auto/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
                         }
                     ]
                 },
@@ -620,7 +620,7 @@
                     "designation": "Media & Communications Manager",
                     "images": [
                         {
-                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_300,h_300,g_face/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_400,h_400,g_face,q_90,f_auto/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
                         }
                     ]
                 },
@@ -630,7 +630,7 @@
                     "designation": "Partnership & Engagement Manager",
                     "images": [
                         {
-                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_300,h_300,g_face/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_400,h_400,g_face,q_90,f_auto/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
                         }
                     ]
                 },
@@ -640,7 +640,7 @@
                     "designation": "Talent & Human Resources Manager",
                     "images": [
                         {
-                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_300,h_300,g_face/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
+                            "src": "https://res.cloudinary.com/faksam-soft/image/upload/c_fill,w_400,h_400,g_face,q_90,f_auto/v1754138504/tektribe/sample_portfolio_s166uu.jpg"
                         }
                     ]
                 }
